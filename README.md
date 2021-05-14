@@ -25,8 +25,9 @@ This Service is used to handle all Inspection related requests and created all I
 ```docker-compose up```
 
 #### API EndsPoints
+```
 Create Inspection:- ```POST http://localhost:8082/inspection/save```
 Get Inspection by Inspection Id:- ```GET http://localhost:8082/inspection/get/4cb4bdd9-492d-49f2-8e98-c11f5902015f```
 Get Inspections by Customer Id:- ```GET http://localhost:8082/inspection/findByCustomerId/sasa2d92d-49f2-8e98-c11f5902015f```
-
+```
 [Download Postman Collection](https://nodejs.org/)
