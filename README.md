@@ -21,7 +21,7 @@ This Service is used to handle all Inspection related requests and created all I
  Step 3: docker build -f Dockerfile -t inspection-service .
  Step 4: docker run -d -p 8082:8082 inspection-service
 ```
-#### Want to run all MicroServices in One Command
+#### Want to run all MicroServices in One Command?
 ```docker-compose up```
 
 #### API EndsPoints
